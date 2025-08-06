@@ -1,0 +1,11 @@
+---@class TileExtra
+---@field label string
+---@field owner integer
+---@field flag integer
+---@field type integer
+---@field admin integer[]
+---@field lastUpdate integer
+---@field alttype integer
+---@field growth integer
+---@field fruitCount integer
+---@field volume integer
