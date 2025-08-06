@@ -1,0 +1,2 @@
+---@class growtopia
+---@field setWeather fun(weatherID:integer):nil     --Sets visual weather (0-74)
