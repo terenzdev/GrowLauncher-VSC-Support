@@ -4,7 +4,7 @@ Provides IntelliSense and Type Hints for GrowLauncher in VSC.
 ## Instructions for use:
 1. Download and install [sumneko's Lua Language Server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) for VSC.
 2. Create a project folder for all your GrowLauncher scripts.
-3. Download the [latest release](https://github.com/terenzdev/GrowLauncher-VSC-Support/releases/tag/v1.1.0) of GrowLauncher-VSC-Support.rar and extract it somewhere.
+3. Download the [latest release](https://github.com/terenzdev/GrowLauncher-VSC-Support/releases/tag/v1.2.0) of GrowLauncher-VSC-Support.rar and extract it somewhere.
 4. Copy and paste these folders into your project root:
     - `.vscode` → VSC config.
     - `meta` → Type definitions.
