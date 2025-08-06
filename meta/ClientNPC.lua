@@ -1,0 +1,5 @@
+---@class ClientNPC
+---@field pos Vec2i
+---@field targetPos Vec2i
+---@field id integer
+---@field type integer
