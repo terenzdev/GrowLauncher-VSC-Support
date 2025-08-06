@@ -54,3 +54,26 @@ GetWorldName = GetWorldName
 
 ---@type GetWorldNameFunc
 getCurrentWorldName = getCurrentWorldName
+
+---@type fun(options: {title:string, message:string, confirm:string, url:string, alias:string}):nil
+sendDialog = sendDialog
+
+---@type fun(name:string, flag:string, netID:integer, posX:number, posY:number):NetAvatar
+createPlayer = createPlayer
+
+---@type fun(min:integer, max:integer):integer
+randomSleep = randomSleep
+
+---@type fun(min:integer, max:integer):integer
+randomCSleep = randomCSleep
+
+---@type fun(function:function, timeout:integer):nil
+await = await
+
+---@alias GetLocalFunc fun():NetAvatar
+
+---@type GetLocalFunc
+getLocal = getLocal
+
+---@type GetLocalFunc
+GetLocal = GetLocal
