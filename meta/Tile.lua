@@ -1,0 +1,11 @@
+---@class Tile
+---@field x integer
+---@field y integer
+---@field fg integer
+---@field bg integer
+---@field flag integer
+---@field readyHarvest boolean
+---@field extra TileExtra
+---@field collidable boolean
+---@field coltype integer
+---@field progress integer
