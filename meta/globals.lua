@@ -1,6 +1,6 @@
 ---@diagnostic disable: lowercase-global, undefined-global
 
----@type fun():integer
+---@type fun():number
 GetGems = GetGems
 
 ---@type fun(flag:integer):nil
@@ -77,3 +77,51 @@ getLocal = getLocal
 
 ---@type GetLocalFunc
 GetLocal = GetLocal
+
+---@alias GetTileFunc fun(tileX:integer, tileY:integer):Tile
+
+---@type GetTileFunc
+getTile = getTile
+
+---@type GetTileFunc
+GetTile = GetTile
+
+---@alias GetTilesFunc fun():Tile[]
+
+---@type GetTilesFunc
+getTiles = getTiles
+
+---@type GetTilesFunc
+GetTiles = GetTiles
+
+---@alias GetInvenFunc fun():Inventory[]
+
+---@type GetInvenFunc
+getInventory = getInventory
+
+---@type GetInvenFunc
+GetInventory = GetInventory
+
+---@alias GetObjFunc fun():WorldObject[]
+
+---@type GetObjFunc
+getObjectList = getObjectList
+
+---@type GetObjFunc
+GetObjectList = GetObjectList
+
+---@alias SendPacketFunc fun(type:integer, packet:string, to_client_first?:boolean):nil
+
+---@type SendPacketFunc
+sendPacket = sendPacket
+
+---@type SendPacketFunc
+SendPacket = SendPacket
+
+---@alias SendRawPacketFunc fun(to_client_first:boolean, PacketRaw:PacketRaw):nil
+
+---@type SendRawPacketFunc
+sendPacketRaw = sendPacketRaw
+
+---@type SendRawPacketFunc
+SendPacketRaw = SendPacketRaw

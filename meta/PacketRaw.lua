@@ -3,9 +3,9 @@
 ---@field value integer
 ---@field x integer
 ---@field y integer
----@field pX integer
----@field pY integer
----@field state integer
----@field netID integer
----@field xSpeed integer
----@field ySpeed integer
+---@field px integer
+---@field py integer
+---@field state integer|nil
+---@field netid integer|nil
+---@field xspeed integer|nil
+---@field yspeed integer|nil
