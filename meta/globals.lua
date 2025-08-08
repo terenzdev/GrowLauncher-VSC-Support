@@ -133,3 +133,11 @@ sendVariant = sendVariant
 
 ---@type SendVarFunc
 SendVariant = SendVariant
+
+---@alias AddHookFunc fun(function:function, event_name:string, no_return?:boolean):any
+
+---@type AddHookFunc
+addHook = addHook
+
+---@type AddHookFunc
+AddHook = AddHook
