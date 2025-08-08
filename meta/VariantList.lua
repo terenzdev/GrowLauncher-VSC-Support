@@ -1,6 +1,6 @@
 ---@class Variant
 ---@field v1 integer|string|boolean|Vec2i|Vec2f|Vec3
----@field v2 integer|string|boolean|Vec2i|Vec2f|Vec3|nil
+---@field v2 integer|string|boolean|Vec2i|Vec2f|Vec3
 ---@field v3 integer|string|boolean|Vec2i|Vec2f|Vec3|nil
 ---@field v4 integer|string|boolean|Vec2i|Vec2f|Vec3|nil
 ---@field v5 integer|string|boolean|Vec2i|Vec2f|Vec3|nil
