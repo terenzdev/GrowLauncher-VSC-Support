@@ -126,7 +126,7 @@ sendPacketRaw = sendPacketRaw
 ---@type SendRawPacketFunc
 SendPacketRaw = SendPacketRaw
 
----@alias SendVarFunc fun(variantList:table):nil|fun(variantList:table, packet:integer):nil|fun(variantList:table, use_netID?:boolean, netID?:integer, value?:integer):nil
+---@alias SendVarFunc fun(variantList:Variant):nil|fun(variantList:Variant, packet:PacketRaw):nil|fun(variantList:Variant, use_netID?:boolean, netID?:integer, value?:integer):nil
 
 ---@type SendVarFunc
 sendVariant = sendVariant
